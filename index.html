@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="assets/img/bn.ico">
+        <!-- Bootstrap -->
+<!--        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <!-- animate css-->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+       <!-- Bootstrap -->        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/main.css">
+    <!-- for offline-->
+<!--    <link rel="stylesheet" href="css/bootstrap.min.css" >-->
+<!--    <link rel="stylesheet" href="css/fontawesome-all.min.css">-->
+        <!--[if lt IE 9]>
+        <script
+src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <title>Bleriot Noguia - Entrepreneur, freelancer, web developer</title>
+    </head>
+       <body id="top">
+            <nav id="nav-primary" class="navbar fixed-top navbar-light navbar-expand-lg navstyle pt-0 pb-0">
+        <a class="navbar-brand" href="#top">
+         <div id="logo">
+           <span>BN</span>
+          </div>
+          <span>Bleriot _</span>
+        </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="main-nav">
+          <ul class="navbar-nav justify-content-center ml-auto" id="main-links">
+          <li class="nav-item active">
+              <a class="nav-link" href="#top">Accueil</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#about">À propos</a>
+                </li>
+<!--
+                <li class="nav-item">
+                    <a class="nav-link" href="/#skills">Skills</a>
+                </li>
+-->
+                <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog">Blog</a>
+                </li>
+              </ul>
+          </div>
+        </nav>
+        <!-- Un modal pour plus d'info à propos de moi-->
+    <div class="modal fade" id="modal-about-me" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+       <div class="modal-dialog" role="document">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title" id="exampleModalLabel1">À propos</h5>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <p>Je suis un développeur web focalisé sur l'utilisation des technologies HTML, CSS, PHP (Laravel), JavaScript (ReactJS), MySQL et WordPress. Je travaille particulièrement sur la création des sites web, des applications web et des applications mobile (React Native).</p>
+            </div>
+            <div class="modal-footer">
+               <button type="button" data-dismiss="modal" aria-label="Close" class="btn btn-primary">Ok</button>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- (Blog) Un modal pour indiquer les traveaux en cours -->
+    <div class="modal fade" id="modal-coming" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+       <div class="modal-dialog" role="document">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title" id="exampleModalLabel2">Bientôt disponible !</h5>
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <p> Cet article n'est pas encore disponible. Abonnez-vous sur ma <a target="_blank" href="https://facebook.com/bleriotnoguiaWeb" title="facebook">page facebook</a> pour être notifié des prochaines publications et mise à jour.</p>
+            </div>
+            <div class="modal-footer">
+              <a target="_blank" href="https://facebook.com/bleriotnoguiaWeb" class="btn btn-info">S'abonner</a>
+              <!-- <a target="_blank" data-dismiss="modal" onclick="javascript:window.location='https://web.facebook.com/bleriotnoguiaWeb'" class="btn btn-info">S'abonner</a> -->
+               <button type="button" data-dismiss="modal" aria-label="Close" class="btn btn-primary">Ok</button>
+            </div>
+         </div>
+      </div>
+   </div>
+<header class="header">
+    <div class="overlay">
+        <div class="container">
+        <div class="row" id="row-intro">
+            <div class="col-md-9 col-sm-12 intro">
+            <h1 class="slow_in">Bleriot Noguia _ </h1>
+            <p class="fast_in">Je suis développeur web Full-stack [ Laravel & ReactJS ]. Je crée des applications web / mobiles de haute qualité tout en essayant de m'amuser</p>
+            <div class="lang-icon">
+            <img class="micon icon-php" src="assets/img/tools/laravel.png" alt="laravel">
+            <img class="micon" src="assets/img/tools/javascript.png" alt="javascript">
+            <img class="micon" src="assets/img/tools/bootstrap.png" alt="bootstrap">
+            <img class="micon" src="assets/img/tools/react.png" alt="react">
+            <img class="micon" src="assets/img/tools/redux.png" alt="angular">
+            <img class="micon icon-sql" src="assets/img/tools/mysql.png" alt="mysql">
+            <img class="micon" src="assets/img/tools/Wordpress.png" alt="Wordpress">
+            <img class="micon" src="assets/img/tools/inkscape.png" alt="inkscape">
+            </div>
+            </div>
+            <div class="col-md-3 col-sm-12 intro">
+            <img data-toggle="modal" data-target="#modal-about-me" id="img-profile" src="assets/img/profile.jpg" alt="profile">
+            </div>
+        </div>
+        <div id="btn-shortcut">
+            <a href="#contact" class=" btn btn-primary brr-25 m-2 wow fadeInUp">Me contacter</a>
+        </div>
+    </div>
+        <div class="divider-style">
+            
+        </div>
+    </div>
+</header>
+<!--      About-->
+<div class="container-fluid bg-white" id="about">
+      <div class="container">
+          <div class="row mb-5">
+              <div class="col-md-3 about-img wow fadeInLeft">
+               <img src="assets/img/user_search.svg" alt="default img">
+              </div>
+              <div class="col-lg-9 col-sm-12 bxc-u rounded wow fadeInRight">
+               <div class="py-4 px-md-3">
+               <h5  class="font-weight-bold">Qui suis-je ?</h5>
+                   <p>Je suis Bleriot Noguia, développeur web full-stack <b>[ Laravel & ReactJS ]</b>. Je suis d'origine africaine ( Cameroun ). J'ai suivi une formation en génie informique à l'IUT ( Institut Universitaire de Technologie ). Durant celle-ci j'ai découvert l'univers de la programmation et je me suis particulièrement intéressé au <b>développement web</b>. En me rendant compte que la suite de cette formation ( à l'IUT ) ne cadrait pas avec mes objectifs, j'ai décidé <b>d'arreter mes études</b> pour me focaliser sur ma passion et mon but : Celui de devenir <b>developpeur web full-stack.</b> <a data-toggle="modal" data-target="#modal-coming" href="blog/about.html">lire plus</a>
+                   </p>
+               </div>
+              </div>
+          </div>
+       </div>
+   </div>
+<!--    end about section -->
+<!-- service section -->
+<div class="container-fluid" id="services">
+    <div class="s-overlay">
+        <div class="title-zone">
+            <h2 class="title-design text-center">Services</h2>
+            <h5 class="subtitle">Mes principaux services</h5>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                <div class="service wow fadeInUp">
+                <div>
+                    <i class="fas fa-globe"></i>
+                    <h5>Création de site web</h5>
+                    <p>Obtenez un site internet sur mésure, pour faire connaitre votre activité en ligne ou pour vos besoins spécifiques.</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                <div class="service wow fadeInUp">
+                <div>
+                    <i class="fas fa-mobile-alt"></i>
+                    <h5>Application mobile</h5>
+                    <p>Obtenez une application mobile pour votre site existant ou une application avec des fonctionnalités spécifiques .</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                <div class="service wow fadeInUp">
+                    <div>
+                        <i class="fas fa-search"></i>
+                        <h5>Optimisation web</h5>
+                        <p>Optimisation de la visibilité de votre site internet par réferencement naturel. Soyez ainsi plus visible sur le web</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                <div class="service wow fadeInUp">
+                    <div>
+                    <i class="fas fa-laptop"></i>
+                    <h5>Application web</h5>
+                    <p>Obtenez des applications web pour vos soucis de gestions ou de besoins de développement spécifiques.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+    <div class="container-fluid bg-white" id="blog">
+      <div class="title-zone">
+       <h2 class="title-design text-center">Blog</h2>
+       <h5 class="subtitle">Publications récentes.</h5>
+       </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4 wow fadeInUp">
+                    <div class="post">
+                        <div class="fig">
+                            <figure class="fig_post wow fadeInDown" style="background-image: url(assets/img/code.jpg);">
+                            </figure>
+                        </div>
+                        <div class="">
+                            <div>
+                                <h4><a href="blog/pourquoi-creer-une-application-web.html">Pourquoi créer une application web ?</a></h4>
+                                <p class="text-left"><em>par Bleriot Noguia</em></p>
+                                <p>Commençons par définir ce qu'est une application web. Une application web est de façon générale la même chose qu’une application classique. Cependant, elle a quelques avantages comme le fait qu’elle est stockée sur le réseau et qu’elle ne prend donc pas de place sur votre ordi...  <a href="blog/pourquoi-creer-une-application-web.html">lire plus</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 d-none d-lg-block wow fadeInUp">
+                    <div class="post">
+                        <div class="fig">
+                            <figure class="fig_post wow fadeInDown" style="background-image: url(assets/img/code.jpg);">
+                            </figure>
+                        </div>
+                        <div class="">
+                            <div>
+                                <h4><a href="blog/pourquoi-creer-un-site-internet.html">Pourquoi créer un site internet ?</a></h4>
+                                <p class="text-left"><em>par Bleriot Noguia</em></p>
+                                <p>La création d'un site web est une étape incontournable dans la stratégie de croissance d'une entreprise. Aujourd’hui, le site web est devenu un véritable outil de communication et un outil marketing puissant. C'est une façon unique de communiquer avec le monde... <a href="blog/pourquoi-creer-un-site-internet.html">lire plus</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 wow fadeInUp">
+                    <div class="post">
+                        <div class="fig">
+                            <figure class="fig_post wow fadeInDown" style="background-image: url(assets/img/code.jpg);">
+                            </figure>
+                        </div>
+                        <div class="">
+                            <div>
+                                <h4><a data-toggle="modal" data-target="#modal-coming" href="#">Est-il nécessaire d'avoir des diplômes pour... ?</a></h4>
+                                <p class="text-left"><em>par Bleriot Noguia</em></p>
+                                <p>La révolution numérique nous propose aujourd'hui de nombreux moyens de continuer d'apprendre et de grimper en compétence; on pourrait donc à juste titre se demander s'il est toujours nécessaire de suivre le système accémique actuel pour... <a data-toggle="modal" data-target="#modal-coming" href="http://">lire plus</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <a href="blog/index.html" class="btn btn-primary brr-25">Voir plus</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--        <div id="cookies"><p>This website use cookies to give you better experience. <a href="#">Ok</a> | <a href="#">Denied</a></p></div>-->
+        <p id="back-top">
+			<a href="#top">
+			<i class="fas fa-angle-up"></i>
+            </a>
+        </p>
+            <!-- Addresse -->
+            <footer>
+            <div id="contact" class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-4 col-md-6">
+                        <div class="about">
+                            <h5>À propos</h5>
+                            <p><b>Développeur Web freelance</b>, je suis à votre disposition pour répondre à tout type de projets de <b>création de sites internet, de développement spécifique ou d'applications web.</b></p>
+                            <p>Passionné par les technologies liées au Web, je mets mes compétences au service de vos besoins dans divers domaines.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-4 col-md-6">
+                        <div class="contact">
+                            <h5>Contact</h5>
+                            <ul>
+                                <li><i class="fas fa-envelope"></i><span>nstevebleriot@yahoo.fr</span></li>
+                                <li><i class="fas fa-phone"></i><span>(+237) 672077465 / 695826588</span></li>
+                                <li><i class="fas fa-map-marker-alt"></i><span>Cameroun. Douala</span></li>
+                                <li><a href="mailto:nstevebleriot@yahoo.fr" class="btn btn-devis">Demander un devis</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-4 col-md-12">
+                        <div class="social">
+                            <h5>Social</h5>
+                            <div class="social-btn">
+                                <a target="_blank" href="https://facebook.com/bleriotnoguiaWeb" title="facebook" class="fab fa-facebook-f"></a>
+                                <a target="_blank" href="https://twitter.com/bleriotnoguia" title="twitter" class="fab fa-twitter"></a>
+                                <a target="_blank" href="https://github.com/bleriotnoguia" title="github" class="fab fa-github"></a>
+                                <a target="_blank" href="https://www.linkedin.com/in/bleriotnoguia/" class="fab fa-linkedin-in"></a>
+                                <a target="_blank" href="https://www.freecodecamp.org/bleriotnoguia"  title="free-code-camp" class="fab fa-free-code-camp"></a>
+                                <a target="_blank" href="https://codepen.io/bleriotnoguia/" title="codepen" class="fab fa-codepen"></a>
+                            </div>
+                        </div>
+                        <div class="logo-footer">
+                            <figure>
+                                <img src="assets/img/bn.svg" alt="bn-logo">
+                            </figure>
+                            <p>Bleriot Noguia - Web Dev.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+              <div class="container-fluid" id="copyright">
+                  <div class="row">
+                      <div class="col-sm-12">
+                        <p id="copyright-text">Copyright © 2019 - Code with <span class="heart"></span> by <a href="#top">Bleriot Noguia</a></p>
+                      </div>
+                  </div>
+              </div>
+        </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-3.3.1.js"></script>
+<!--    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!--    Sweet Alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<!--
+   <script src="assets/bootstrap/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+-->
+   <script src="assets/js/main.js"></script>
+   <!--    wow js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<!--    active wow-->
+    <script>
+        wow = new WOW(
+                      {
+                      boxClass:     'wow',      // default
+                      animateClass: 'animated', // default
+                      offset:       0,          // default
+                      mobile:       true,       // default
+                      live:         true        // default
+                    }
+                    )
+                    wow.init();
+    </script>
+   </body>
+</html>
