@@ -151,8 +151,10 @@ $('a[href*="#"]')
     $(window).scroll(function(){
       if($(document).scrollTop() > 80){
         $('#nav-primary').addClass('shrink');
+        $("#logo img").attr("src","assets/img/bn-color.svg");
       }else{
         $('#nav-primary').removeClass('shrink');
+        $("#logo img").attr("src","assets/img/bn-w.png");
       }
     });
 
