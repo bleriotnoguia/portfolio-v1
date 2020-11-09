@@ -151,10 +151,17 @@ $('a[href*="#"]')
     $(window).scroll(function(){
       if($(document).scrollTop() > 80){
         $('#nav-primary').addClass('shrink');
-        $("#logo img").attr("src","assets/img/bn-color.svg");
+        if (!window.matchMedia('(max-width: 993px)').matches) {
+          $("#logo img").attr("src","assets/img/bn-color.svg");
+          $('.shrink .logo-zone').css('color', 'black');
+        }else{
+          $("#logo img").attr("src","assets/img/bn-w.png");
+          $('.shrink .logo-zone').css('color', 'white');
+        }
       }else{
         $('#nav-primary').removeClass('shrink');
         $("#logo img").attr("src","assets/img/bn-w.png");
+        $('.logo-zone').css('color', 'white');
       }
     });
 
