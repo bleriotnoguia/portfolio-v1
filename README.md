@@ -15,8 +15,8 @@
 
 Hi, I'm Bleriot Noguia, a passionate self-taught web developer.
 
-- 🔭 I’m currently working on [nerm-ecommerce](https://github.com/bleriotnoguia/nerm-ecommerce) & [symfony5-ecommerce](https://github.com/bleriotnoguia/symfony5-ecommerce)
-- 🌱 I’m currently learning Typescript, NodeJS & Symfony
+- 🔭 I’m currently working on [cointracker](https://github.com/bleriotnoguia/cointracker)
+- 🌱 I’m currently learning Typescript, Redux & Tailwindcss
 - 👯 I’m looking to collaborate on [Cardano](https://github.com/input-output-hk/cardano-node)
 - 💬 Ask me about anything [here](https://github.com/bleriotnoguia/bleriotnoguia/issues)
 
