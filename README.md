@@ -17,7 +17,7 @@
   Hi, I'm Bleriot Noguia, a passionate self-taught web developer.
 
   - 🔭 I’m currently working on [cointracker](https://github.com/bleriotnoguia/cointracker)
-  - 🌱 I’m currently learning Typescript, Redux & Tailwindcss
+  - 🌱 I’m currently learning Typescript, Redux
   - 👯 I’m looking to collaborate on [Cardano](https://github.com/input-output-hk/cardano-node)
   - 💬 Ask me about anything [here](https://github.com/bleriotnoguia/bleriotnoguia/issues)
 
