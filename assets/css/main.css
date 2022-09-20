@@ -179,7 +179,7 @@ a.btn-devis:hover{
 .lang-icon .micon{
     height: 30px;
     width: 30px;
-    margin: 1px;
+    margin: 3px;
     transform: translateY(80px);
 }
 
@@ -227,6 +227,10 @@ a.btn-devis:hover{
 .icon-php, .icon-sql{
     height: 30px !important;
     width: 48px !important;
+}
+
+.icon-gimp{
+    width: 40px !important;
 }
 
 @keyframes micon_pos{
