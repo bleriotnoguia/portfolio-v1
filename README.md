@@ -1,17 +1,5 @@
 ### Hi there, I'm [Bleriot Noguia!](https://bleriotnoguia.com) 👋
 
-<a href="https://www.linkedin.com/in/bleriotnoguia/">
-  <img align="left" alt="Bleriot Noguia | Linkedin" width="20px" src="https://raw.githubusercontent.com/bleriotnoguia/bleriotnoguia/main/assets/img/linkedIn.png" />
-</a>
-<a href="https://twitter.com/bleriotnoguia">
-  <img align="left" alt="Bleriot Noguia | Twitter" width="21px" src="https://raw.githubusercontent.com/bleriotnoguia/bleriotnoguia/master/assets/img/twitter.svg" />
-</a>
-<a href="https://t.me/bleriotnoguia">
-  <img align="left" alt="Bleriot Noguia | Telegram" width="21px" src="https://raw.githubusercontent.com/bleriotnoguia/bleriotnoguia/master/assets/img/telegram.png" />
-</a>
-
-<br />
-<br />
 <img align="right" src="https://github-readme-stats.vercel.app/api?username=bleriotnoguia&show_icons=true&include_all_commits=true&theme=github_dark" alt="Bleriot's github stats" />
 <div>
   Hi, I'm Bleriot Noguia, a passionate self-taught web developer.
