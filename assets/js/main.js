@@ -1,3 +1,5 @@
+document.getElementById("year").innerHTML = new Date().getFullYear();
+
 //--- To manage smart feedback to user after he fill the form -----
 $("#idFormDevis").submit(
    function(){
